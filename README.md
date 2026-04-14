@@ -1,8 +1,6 @@
 Castle Defender - Fall 2025
 ===========================
 
-Name: Abraham
-
 How to Compile
 --------------
 This project was developed in Microsoft Visual Studio (MSVC).
