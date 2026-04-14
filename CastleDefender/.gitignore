@@ -1,0 +1,18 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# VC database / temp
+*.VC.db
+*.VC.opendb

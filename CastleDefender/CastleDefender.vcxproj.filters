@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{07646d33-c57d-4ce5-a3c7-d6cf41ab5177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{fa35b3ea-7a15-4861-81f4-622b68b5e961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongEnemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FastEnemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongEnemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FastEnemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="towers.txt" />
+  </ItemGroup>
+</Project>
